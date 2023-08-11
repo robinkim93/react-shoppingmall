@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 interface PropsType {
   productsData: productDataType;
-  key: number;
 }
 
 export const Card = (props: PropsType) => {

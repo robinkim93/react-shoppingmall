@@ -12,8 +12,8 @@ export const Main = (props: PropsType) => {
       <div className="bg-main w-screen h-72 bg-cover bg-left"></div>
 
       <div className="grid grid-cols-3 gap-8">
-        {productsData.map((product: productDataType, index) => {
-          return <Card productsData={product} key={index} />;
+        {productsData.map((product: productDataType) => {
+          return <Card productsData={product} />;
         })}
       </div>
     </div>
